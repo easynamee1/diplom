@@ -24,10 +24,7 @@ namespace WindowsFormsApp3
             label9.Text = T1.ToString() + "°C";
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -162,11 +159,6 @@ namespace WindowsFormsApp3
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if(checkBox1.Checked) {
@@ -182,16 +174,6 @@ namespace WindowsFormsApp3
                 pictureBox5.Visible = false;
                 pictureBox4.Visible = true;
             }
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void trackBar5_Scroll(object sender, EventArgs e)
@@ -366,6 +348,26 @@ namespace WindowsFormsApp3
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
